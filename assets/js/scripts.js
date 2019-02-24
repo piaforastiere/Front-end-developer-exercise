@@ -1,3 +1,5 @@
+
+
 const app = document.getElementById('root');
 
 const container = document.createElement('section');
@@ -66,7 +68,7 @@ function displayPost(post){
 function addClass(){
   if(!$("#post1").hasClass('active')){
     $("#post1").addClass('active');
-
+    $('.loader').hide();
   }
 }
 
